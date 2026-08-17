@@ -5,7 +5,7 @@
 
 This repository contains a short technical assignment, working with GENOME (Geopolitical Event News Observatory, Mapping, and Extraction) data from HCSS Datalab. 
 
-The main output of the assignment is a dashboard with two examples of exploring the GENOME data on a "conflict episode" level, which is my proposed additional navigation layer for GENOME. The dashboard can be found publicly here: [link]. More elaborate replications instructions are given below.
+The main output of the assignment is a dashboard with two examples of exploring the GENOME data on a "conflict episode" level, which is my proposed additional navigation layer for GENOME. The dashboard can be found publicly here [link](https://hcssgenomeassignment.streamlit.app/). More elaborate replications instructions are given below.
 
 ## Table of contents
 - [Chosen Domain Angle](#chosen-domain-angle)
@@ -45,7 +45,7 @@ The first step is to load, combine and preprocess the raw GENOME data stored in 
 python src/preprocessing.py
 ```
 
-The second step is to launch the dashboard in which the results are presented. The dashboard is written in the [dashboard.py](dashboard.py) script using Streamlit. It is currently deployed publicly on this link: [link], but can also be hosted locally by running:
+The second step is to launch the dashboard in which the results are presented. The dashboard is written in the [dashboard.py](dashboard.py) script using Streamlit. It is currently deployed publicly here on [hcssgenomeassignment.streamlit.app](https://hcssgenomeassignment.streamlit.app/), but can also be hosted locally by running:
 
 ```bash
 streamlit run dashboard.py
